@@ -1,0 +1,17 @@
+{
+  "name": "ex03_tsc_async",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "build": "tsc",
+    "watch": "./node_modules/nodemon/bin/nodemon.js ./index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
